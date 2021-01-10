@@ -19,6 +19,7 @@
 **#NOTE:** Save the sha256 value in notepad, we'll call it <sha256_sum_value>.
 
 Change the `-` in the generated value to `:`
+
 for example:
 
 **before:** `sha256-81154f5c03294534e1eaf0319bef7a601134f891689ccede5d705ef659aa8c92`
@@ -41,6 +42,7 @@ for example:
     oc edit ImageContentSourcePolicy
 
 **#NOTE:** In this file, change all appearances of the current version to the desired version.
+
 for example:
 
 **before:** */ocp4.3.22/openshift4.3.22
