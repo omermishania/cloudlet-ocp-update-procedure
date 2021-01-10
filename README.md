@@ -50,4 +50,4 @@ for example:
 
 **#NOTE:** When updating a major version (4.3 -> 4.4, 4.4 -> 4.5, etc.),    make sure you change the stable channel to the desired major (stable-4.3 -> stable-4.4, etc.) in the GUI.
 
-Created with @daviddaskalo
+Created with [@daviddaskalo](https://github.com/DavidDaskalo)
