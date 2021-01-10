@@ -22,6 +22,7 @@ Change the `-` in the generated value to `:`
 for example:
 
 **before:** `sha256-81154f5c03294534e1eaf0319bef7a601134f891689ccede5d705ef659aa8c92`
+
 **after:** `sha256:81154f5c03294534e1eaf0319bef7a601134f891689ccede5d705ef659aa8c92`
 
 ### 5. Set environment variables to make your life easier
