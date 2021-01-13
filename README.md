@@ -1,11 +1,6 @@
 # Cloudlet OpenShift Version Update
 -----------
 
-## Important notes :memo:
-
-Please **Don't** work alone. Another pair of eyes is necessary to avoid critical mistakes.
-Consider making an automation of this procedure.
-
 ## Upgrade Procedure
 
 ### 1. Login to the cluster
@@ -75,4 +70,12 @@ for example:
 | :memo: | When updating a major version (4.3 -> 4.4, 4.4 -> 4.5, etc.),    make sure you change the stable channel to the desired major (stable-4.3 -> stable-4.4, etc.) in the GUI. |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-Created by with Omer and Dave
+## Important notes :memo:
+Please **Don't** work alone. Another pair of eyes is necessary to avoid critical mistakes.
+
+## Next recommended steps
+- Consider making an automation of this procedure.
+- when updating a fully operational cluster, an automation that validates dependencies and notifies if the upgrade will break applications/systems due to version incompatabilities (like Trident) should be made.
+
+
+Created with [@DavidDaskalo](@github.com/daviddaskalo)
